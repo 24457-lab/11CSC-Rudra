@@ -162,3 +162,130 @@ display:grid;
 grid-template-columns:1fr 1fr;
 gap:25px;
 }
+
+/* Cards */
+.card{
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* Card colours */
+.blue{
+background:#dbeafe;
+border-left:10px solid #2563eb;
+}
+
+.red{
+background:#fee2e2;
+border-left:10px solid #dc2626;
+}
+
+.green{
+background:#dcfce7;
+border-left:10px solid #16a34a;
+}
+
+.purple{
+background:#f3e8ff;
+border-left:10px solid #9333ea;
+}
+
+.orange{
+background:#fef3c7;
+border-left:10px solid #f59e0b;
+}
+
+/* Solutions */
+.solutions{
+background:#f3f4f6;
+padding:80px;
+}
+
+.solution-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+}
+
+.solution-card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.solution-card:hover{
+transform:translateY(-5px);
+}
+
+.big{
+background:linear-gradient(to right,#2563eb,#06b6d4);
+color:white;
+}
+
+/* Risk page */
+.risk-high{
+background:#fee2e2;
+border:3px solid #dc2626;
+}
+
+.risk-medium{
+background:#fef3c7;
+border:3px solid #f59e0b;
+}
+
+.risk-low{
+background:#dcfce7;
+border:3px solid #16a34a;
+}
+
+.result-box{
+padding:25px;
+border-radius:20px;
+color:white;
+}
+
+.result-high{
+background:linear-gradient(to right,#dc2626,#ef4444);
+}
+
+.result-medium{
+background:linear-gradient(to right,#f59e0b,#fbbf24);
+}
+
+.result-low{
+background:linear-gradient(to right,#16a34a,#22c55e);
+}
+
+/* Resource cards */
+.resource-card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.resource-card:hover{
+transform:translateY(-5px);
+}
+
+/* Maori section */
+.maori{
+background:linear-gradient(to right,#0f172a,#1e3a8a);
+color:white;
+text-align:center;
+padding:80px;
+}
+
+.quote{
+font-size:28px;
+font-style:italic;
+}
